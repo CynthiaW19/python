@@ -1,6 +1,7 @@
 count = 0
-while true:
+while True:
 	print(count,"=",bin(count))
-	count - count + 1
+	count = count + 1
 	if count > 100: break
-print("count reached 100",count)
+print("count reached 100", count)
+  
